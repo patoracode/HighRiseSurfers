@@ -348,9 +348,12 @@
 "Assets/boardController.cs"
 "Assets/cameraMotion.cs"
 "Assets/cameraMotionNew.cs"
+"Assets/coinManager.cs"
 "Assets/mousePosCtrl.cs"
 "Assets/mover.cs"
 "Assets/movingSphere.cs"
+"Assets/pannoRotate.cs"
+"Assets/PickupPanneau.cs"
 -langversion:9.0
 /deterministic
 /optimize+
