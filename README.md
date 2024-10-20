@@ -1,6 +1,8 @@
 # HighRiseSurfers
 _My first game._
 
+![please render please render please render please ren](./splashscreen.png)
+
 ## Installation
 
 Just download the Build folder from the GitHub repository and run the .exe file.
