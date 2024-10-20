@@ -5,7 +5,7 @@ _My first game._
 
 ## Installation
 
-Just download the Build folder from the GitHub repository and run the .exe file.
+If you do not have access to the Build folder, please download this whole repository and open it as a project in Unity.
 
 ## How to play
 
