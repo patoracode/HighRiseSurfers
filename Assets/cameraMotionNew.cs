@@ -27,6 +27,6 @@ public class cameraMotionNew : MonoBehaviour
         targetPosition.z = cameraTransform.position.z;
         cameraTransform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
 
-        //transform.LookAt(mouseTarget); NE PAS UTILISER car la souris utilise la position sur l'écran donc big feedback loop
+        //transform.LookAt(mouseTarget); NE PAS UTILISER car la souris utilise la position sur l'écran donc une boucle de rétroaction se crée
     }
 }

@@ -349,11 +349,13 @@
 "Assets/cameraMotion.cs"
 "Assets/cameraMotionNew.cs"
 "Assets/coinManager.cs"
+"Assets/ExitButton.cs"
 "Assets/mousePosCtrl.cs"
 "Assets/mover.cs"
 "Assets/movingSphere.cs"
 "Assets/pannoRotate.cs"
 "Assets/PickupPanneau.cs"
+"Assets/WinGame.cs"
 -langversion:9.0
 /deterministic
 /optimize+

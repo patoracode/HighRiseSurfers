@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mover : MonoBehaviour
 {
-    public float defaultSpeed = .05f;
+    public float defaultSpeed = 5f;
     public Vector3 velocity = new Vector3(0f, 0f, 0f);
 
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += velocity;
+        transform.position += velocity * Time.deltaTime;
     }
 
 
@@ -37,7 +37,7 @@ public class mover : MonoBehaviour
         Debug.Log("enter slowdown ROUTINE");
 
         // Halve the speed
-        velocity.z = -defaultSpeed * .3f;
+        velocity.z = -defaultSpeed * .5f;
 
         // Wait for the specified duration
         yield return new WaitForSeconds(duration);
